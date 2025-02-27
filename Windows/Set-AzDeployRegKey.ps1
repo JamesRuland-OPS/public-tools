@@ -58,8 +58,8 @@ function Set-AzDeployRegKey
         # Set the registry path based on the DeploymentType.
         switch ($DeploymentType)
         {
-            'App' { $RegKeyPath = 'HKLM:\Software\DHHS\Azure\AutoDeploy\Apps' }
-            'Setting' { $RegKeyPath = 'HKLM:\Software\DHHS\Azure\AutoDeploy\Settings' }
+            'App' { $RegKeyPath = '' }
+            'Setting' { $RegKeyPath = '' }
         }
     }
 
